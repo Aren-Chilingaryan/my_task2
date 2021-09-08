@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <div id="div1"  class="num">10</div>
+        <div id="div2"  class="num">12</div>
+        <div id="div3"  class="num">10</div>
+        <div id="div4"  class="num">14</div>
+        <div id="div5"  class="num">25</div>
+        <div id="div6"  class="num">35</div>
+        <div id="div7"  class="num">8</div>
+        <div id="div8"  class="num">9</div>
+        <div id="div9"  class="num">11</div>
+        <div id="div10"  class="num">21</div>
+    </div>
+    
+   <button type="button" id="btn" onClick="giveSumOfRadioDivs()">Sum of red squares</button><br> 
+   <input  type="text" id="color" name="txtColor" id="txtColor" ><br> 
+
+    <input type="radio" id="red"  name="color" onClick="giveSumOfRadioDivs('rgb(255, 0, 0)')">
+    <label for="html">Red</label><br>
+    <input type="radio" id="yellow"  name="color" onClick="giveSumOfRadioDivs('rgb(255, 255, 0)')">
+    <label for="html">Yellow</label><br>
+    <input type="radio" id="blue"  name="color" onClick="giveSumOfRadioDivs('rgb(0, 0, 255)')">
+    <label for="html">Blue</label><br>
+    <div id="sum"></div>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
